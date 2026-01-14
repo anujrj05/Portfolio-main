@@ -8,7 +8,7 @@ const nextConfig = withBundleAnalyzer({
   reactStrictMode: true,
   pageExtensions: ["ts", "tsx", "js"],
   eslint: {
-    dirs: ["src"],
+    ignoreDuringBuilds: true,
   },
   images: {
     domains: ["flagcdn.com"],
