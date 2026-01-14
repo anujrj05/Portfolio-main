@@ -8,8 +8,8 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     href: "/projects",
     tags: ["React.js", "Node.js", "Express.js", "MongoDB"],
     image: {
-      LIGHT: "/images/projects/Split.png",
-      DARK: "/images/projects/Split.png",
+      LIGHT: "/images/projects/split.png",
+      DARK: "/images/projects/split.png",
     },
   },
   {
@@ -38,7 +38,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "Split Trip",
     favicon: "/favicon.ico",
-    imageUrl: ["/images/projects/Split.png"],
+    imageUrl: ["/images/projects/split.png"],
     description:
       "Built a full-stack expense sharing application to manage group trips, enabling fair cost distribution and real-time expense summaries.",
     sourceCodeHref: "https://github.com/anujrj05/Split_trip",
@@ -50,7 +50,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     imageUrl: ["/images/projects/conference.jpg"],
     description:
       "Designed a responsive conference website template with reusable components for speakers, schedules, and announcements.",
-    sourceCodeHref: "https://github.com/anujrj05/Conference-Template-master",
+    sourceCodeHref: "https://github.com/anujrj05/Conference_template",
     liveWebsiteHref: "https://github.com/anujrj05/Conference_template",
   },
   {
@@ -65,7 +65,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "Imagify",
     favicon: "/favicon.ico",
-    imageUrl: ["/images/projects/imagify.webp"],
+    imageUrl: ["/images/projects/Imagify.webp"],
     description:
       "Created an image processing application that allows users to enhance and transform images through a simple interface.",
     sourceCodeHref: "https://github.com/anujrj05/Imagify",
