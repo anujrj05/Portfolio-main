@@ -42,7 +42,7 @@ export default function LandingHero() {
                 Anuj Kuntal
               </h1>
               <span className="text-xl font-semibold text-zinc-900 dark:text-zinc-100 md:text-3xl">
-                Software Developer
+                Aspiring Software Developer
               </span>
             </FadeUp>
           </AnimatePresence>
