@@ -36,7 +36,7 @@ export default function AboutHero() {
             <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
               An 21-year-old guy interested in Full Stack and Artificial
               Intelligence. I do both development and deployment. To know more,
-              follow me at GitHub, LinkedIn, and Twitter.
+              follow me at GitHub and LinkedIn.
             </p>
           </FadeUp>
           <FadeUp key="description-2" duration={0.6} delay={0.4}>
