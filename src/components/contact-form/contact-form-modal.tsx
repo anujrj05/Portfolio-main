@@ -29,7 +29,7 @@ export default function ContactFormModal({
   const handleSubmit = async (values: ContactFormValues) => {
     setIsSendingMail(true);
     try {
-      const response = await fetch("/api/sendmail", {
+      const response = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(values),
@@ -55,7 +55,7 @@ export default function ContactFormModal({
       setToastState({
         type: "failure",
         value: true,
-        message: "Oop! Unable to send email",
+        message: "Error sending email. Please try again later.",
       });
     }
     setIsSendingMail(false);
