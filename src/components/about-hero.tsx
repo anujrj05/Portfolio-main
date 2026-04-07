@@ -15,7 +15,7 @@ export default function AboutHero() {
         <AnimatePresence>
           <FadeUp key="hero-image" duration={0.6}>
             <Image
-              src={heroProfileImg}
+              src="/images/Anuj1.png"
               width={600}
               height={600}
               className="h-auto w-full px-0 xl:px-16"
