@@ -4,6 +4,36 @@ import { type ProjectShowcaseListItem } from "@/components/projects/project-show
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
     index: 0,
+    title: "AI Video Assistant",
+    href: "/projects",
+    tags: ["Python", "Streamlit", "Whisper", "Mistral AI", "LangChain", "ChromaDB"],
+    image: {
+      LIGHT: "/images/projects/ai-video-assistant.png",
+      DARK: "/images/projects/ai-video-assistant.png",
+    },
+  },
+  {
+    index: 1,
+    title: "ChatBot",
+    href: "/projects",
+    tags: ["JavaScript", "Node.js", "Express.js", "Groq LLM", "Tavily API"],
+    image: {
+      LIGHT: "/images/projects/chatbot.png",
+      DARK: "/images/projects/chatbot.png",
+    },
+  },
+  {
+    index: 2,
+    title: "API Rate Limiter",
+    href: "/projects",
+    tags: ["Node.js", "Redis", "MongoDB", "JWT", "REST API"],
+    image: {
+      LIGHT: "/images/projects/api-rate-limiter.png",
+      DARK: "/images/projects/api-rate-limiter.png",
+    },
+  },
+  {
+    index: 3,
     title: "Split Trip",
     href: "/projects",
     tags: ["React.js", "Node.js", "Express.js", "MongoDB"],
@@ -13,17 +43,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     },
   },
   {
-    index: 1,
-    title: "Conference Template",
-    href: "/projects",
-    tags: ["HTML", "CSS", "JavaScript", "Responsive Design"],
-    image: {
-      LIGHT: "/images/projects/conference.jpg",
-      DARK: "/images/projects/conference.jpg",
-    },
-  },
-  {
-    index: 2,
+    index: 4,
     title: "Pokedex",
     href: "/projects",
     tags: ["JavaScript", "API", "HTML", "CSS"],
@@ -32,33 +52,61 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
       DARK: "/images/projects/pokedex.png",
     },
   },
+  {
+    index: 5,
+    title: "Imagify",
+    href: "/projects",
+    tags: ["JavaScript", "Web Development", "Image Processing"],
+    image: {
+      LIGHT: "/images/projects/Imagify.webp",
+      DARK: "/images/projects/Imagify.webp",
+    },
+  },
 ];
 
 export const PROJECTS_CARD: ProjectCardProps[] = [
+  {
+    name: "AI Video Assistant",
+    favicon: "/favicon.ico",
+    imageUrl: ["/images/projects/ai-video-assistant.png"],
+    description:
+      "AI-powered video intelligence application that transforms YouTube videos and local media into searchable knowledge using Whisper transcription, LLM-based analysis, and RAG-powered question answering.",
+    sourceCodeHref: "https://github.com/anujrj05/AI-Video-Assistant",
+    liveWebsiteHref: "https://github.com/anujrj05/AI-Video-Assistant",
+  },
+  {
+    name: "ChatBot",
+    favicon: "/favicon.ico",
+    imageUrl: ["/images/projects/chatbot.png"],
+    description:
+      "LLM-powered chatbot with real-time web search capabilities built using Node.js, Express.js, Groq LLM, and Tavily API for context-aware AI responses.",
+    sourceCodeHref: "https://github.com/anujrj05/ChatBot",
+    liveWebsiteHref: "https://github.com/anujrj05/ChatBot",
+  },
+  {
+    name: "API Rate Limiter",
+    favicon: "/favicon.ico",
+    imageUrl: ["/images/projects/api-rate-limiter.png"],
+    description:
+      "Backend API rate-limiting and monitoring system built with Node.js, Redis, MongoDB, JWT authentication, and REST APIs, designed to handle and monitor high-volume API traffic.",
+    sourceCodeHref: "https://github.com/anujrj05/API_rate_limiter",
+    liveWebsiteHref: "https://github.com/anujrj05/API_rate_limiter",
+  },
   {
     name: "Split Trip",
     favicon: "/favicon.ico",
     imageUrl: ["/images/projects/split.png"],
     description:
-      "Built a full-stack expense sharing application to manage group trips, enabling fair cost distribution and real-time expense summaries.",
+      "Full-stack expense-sharing application for managing group trips, splitting expenses, and generating accurate settlement summaries.",
     sourceCodeHref: "https://github.com/anujrj05/Split_trip",
     liveWebsiteHref: "https://github.com/anujrj05/Split_trip",
-  },
-  {
-    name: "Conference Template",
-    favicon: "/favicon.ico",
-    imageUrl: ["/images/projects/conference.jpg"],
-    description:
-      "Designed a responsive conference website template with reusable components for speakers, schedules, and announcements.",
-    sourceCodeHref: "https://github.com/anujrj05/Conference_template",
-    liveWebsiteHref: "https://github.com/anujrj05/Conference_template",
   },
   {
     name: "Pokedex",
     favicon: "/favicon.ico",
     imageUrl: ["/images/projects/pokedex.png"],
     description:
-      "Developed a Pokedex web app using public APIs to fetch and display Pokémon data with search and filter functionality.",
+      "Interactive Pokedex web application that consumes public APIs to fetch, search, and display detailed Pokémon information.",
     sourceCodeHref: "https://github.com/anujrj05/pokedex",
     liveWebsiteHref: "https://github.com/anujrj05/pokedex",
   },
@@ -67,17 +115,8 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     favicon: "/favicon.ico",
     imageUrl: ["/images/projects/Imagify.webp"],
     description:
-      "Created an image processing application that allows users to enhance and transform images through a simple interface.",
+      "Web-based image application with a simple interface for working with and transforming images.",
     sourceCodeHref: "https://github.com/anujrj05/Imagify",
     liveWebsiteHref: "https://github.com/anujrj05/Imagify",
-  },
-  {
-    name: "Sharkie Game",
-    favicon: "/favicon.ico",
-    imageUrl: ["/images/projects/sharke-image.png"],
-    description:
-      "Built a browser-based game using JavaScript featuring interactive gameplay mechanics and score tracking.",
-    sourceCodeHref: "https://github.com/anujrj05/Sharkie_Game",
-    liveWebsiteHref: "https://github.com/anujrj05/Sharkie_Game",
   },
 ];
