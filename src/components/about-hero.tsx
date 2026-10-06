@@ -5,7 +5,6 @@ import { AnimatePresence } from "framer-motion";
 
 import FadeUp from "@/animation/fade-up";
 import FadeRight from "@/animation/fade-right";
-import heroProfileImg from "@/public/images/Anuj1.png";
 import DuotoneImage from "./duotone-image";
 
 export default function AboutHero() {
@@ -25,6 +24,7 @@ export default function AboutHero() {
           </FadeUp>
         </AnimatePresence>
       </div>
+
       <div className="sm:1/2 mt-10 w-full lg:w-1/2">
         <AnimatePresence>
           <FadeUp key="title-greeting" duration={0.6}>
@@ -32,23 +32,29 @@ export default function AboutHero() {
               Hi, I&apos;m Anuj Kuntal
             </h1>
           </FadeUp>
+
           <FadeUp key="description-1" duration={0.6} delay={0.2}>
             <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
-              An 21-year-old guy interested in Full Stack and Artificial
-              Intelligence. I do both development and deployment. To know more,
-              follow me at GitHub and LinkedIn.
+              I&apos;m a Computer Science graduate and Software Engineer
+              passionate about building scalable applications and delivering
+              high-quality software. Currently, I&apos;m working as an SDET
+              Intern at Lenskart, where I work across web and mobile
+              applications, testing, automation, and product quality.
             </p>
           </FadeUp>
+
           <FadeUp key="description-2" duration={0.6} delay={0.4}>
             <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
-              Explore my latest{" "}
+              I enjoy working with Java, C++, JavaScript, TypeScript, React,
+              Next.js, Node.js, and databases. I also have a strong foundation
+              in DSA and software engineering. Explore my latest{" "}
               <Link href="/projects" className="underline underline-offset-4">
                 <span className="text-accent">projects</span>
               </Link>{" "}
-              showcasing my expertise in Reactjs, Nextjs, Javascript, Typescript
-              and web development.
+              to see what I&apos;ve been building.
             </p>
           </FadeUp>
+
           <FadeRight
             key="hero-location"
             duration={0.6}
@@ -64,8 +70,9 @@ export default function AboutHero() {
                 height={15}
               />
             </div>
+
             <span className="text-lg font-medium text-foreground">
-              Rajasthan, India
+              Bengaluru, India
             </span>
           </FadeRight>
         </AnimatePresence>
