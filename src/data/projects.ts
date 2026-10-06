@@ -6,7 +6,14 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     index: 0,
     title: "AI Video Assistant",
     href: "/projects",
-    tags: ["Python", "Streamlit", "Whisper", "Mistral AI", "LangChain", "ChromaDB"],
+    tags: [
+      "Python",
+      "Streamlit",
+      "Whisper",
+      "Mistral AI",
+      "LangChain",
+      "ChromaDB",
+    ],
     image: {
       LIGHT: "/images/projects/ai-video-assistant.png",
       DARK: "/images/projects/ai-video-assistant.png",
@@ -81,7 +88,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     description:
       "LLM-powered chatbot with real-time web search capabilities built using Node.js, Express.js, Groq LLM, and Tavily API for context-aware AI responses.",
     sourceCodeHref: "https://github.com/anujrj05/ChatBot",
-    liveWebsiteHref: "https://github.com/anujrj05/ChatBot",
+    liveWebsiteHref: "https://chatb-jsoe.onrender.com/",
   },
   {
     name: "API Rate Limiter",
