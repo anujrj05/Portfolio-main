@@ -18,7 +18,7 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
       name: "Xelron",
       href: "",
     },
-    date: "Jan 2026 - Present",
+    date: "Jan 2026 - Jun 2026",
     location: "Remote",
     description:
       "Worked on training and evaluating Large Language Models through data annotation, response ranking, prompt engineering, and quality assessment. Evaluated 5,000+ AI-generated outputs and refined 500+ prompts to improve contextual understanding, response quality, and model consistency.",
