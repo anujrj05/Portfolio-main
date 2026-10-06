@@ -23,7 +23,13 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     index: 1,
     title: "ChatBot",
     href: "/projects",
-    tags: ["JavaScript", "Node.js", "Express.js", "Groq LLM", "Tavily API"],
+    tags: [
+      "JavaScript",
+      "Node.js",
+      "Express.js",
+      "Groq LLM",
+      "Tavily API",
+    ],
     image: {
       LIGHT: "/images/projects/chatbot.png",
       DARK: "/images/projects/chatbot.png",
@@ -78,8 +84,10 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     imageUrl: ["/images/projects/ai-video-assistant.png"],
     description:
       "AI-powered video intelligence application that transforms YouTube videos and local media into searchable knowledge using Whisper transcription, LLM-based analysis, and RAG-powered question answering.",
-    sourceCodeHref: "https://github.com/anujrj05/AI-Video-Assistant",
-    liveWebsiteHref: "https://github.com/anujrj05/AI-Video-Assistant",
+    sourceCodeHref:
+      "https://github.com/anujrj05/AI-Video-Assistant",
+    liveWebsiteHref:
+      "https://github.com/anujrj05/AI-Video-Assistant",
   },
   {
     name: "ChatBot",
@@ -96,8 +104,10 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     imageUrl: ["/images/projects/api-rate-limiter.png"],
     description:
       "Backend API rate-limiting and monitoring system built with Node.js, Redis, MongoDB, JWT authentication, and REST APIs, designed to handle and monitor high-volume API traffic.",
-    sourceCodeHref: "https://github.com/anujrj05/API_rate_limiter",
-    liveWebsiteHref: "https://github.com/anujrj05/API_rate_limiter",
+    sourceCodeHref:
+      "https://github.com/anujrj05/API_rate_limiter",
+    liveWebsiteHref:
+      "https://github.com/anujrj05/API_rate_limiter",
   },
   {
     name: "Split Trip",
