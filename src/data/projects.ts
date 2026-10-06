@@ -41,8 +41,8 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     href: "/projects",
     tags: ["Node.js", "Redis", "MongoDB", "JWT", "REST API"],
     image: {
-      LIGHT: "/images/projects/api-rate-limiter.png",
-      DARK: "/images/projects/api-rate-limiter.png",
+      LIGHT: "/images/projects/logos/api-rate-limiter.png",
+      DARK: "/images/projects/logos/api-rate-limiter.png",
     },
   },
   {
@@ -101,7 +101,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "API Rate Limiter",
     favicon: "/favicon.ico",
-    imageUrl: ["/images/projects/api-rate-limiter.png"],
+    imageUrl: ["/images/projects/logos/api-rate-limiter.png"],
     description:
       "Backend API rate-limiting and monitoring system built with Node.js, Redis, MongoDB, JWT authentication, and REST APIs, designed to handle and monitor high-volume API traffic.",
     sourceCodeHref:
